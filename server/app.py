@@ -26,7 +26,7 @@ from statsmodels.tools.sm_exceptions import ConvergenceWarning
 warnings.simplefilter('ignore', ConvergenceWarning)
 
 
-mongoDB=pymongo.MongoClient("mongodb+srv://suyogya2001:MxDyMh5JbHxy8DA2@cluster0.iq3bu93.mongodb.net/?retryWrites=true&w=majority")
+mongoDB=pymongo.MongoClient("mongodb+srv://username:MxDyMh5JbHxy8DA2@cluster0.iq3bu93.mongodb.net/?retryWrites=true&w=majority")
 db=mongoDB['SalesPrediction']
 account=db.account
 
